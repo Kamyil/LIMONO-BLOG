@@ -1,0 +1,34 @@
+@import 'mixins/rectangle';
+@import 'mixins/fullWidthImgBg';
+
+article{
+
+    .jumbotron{
+        background-color: #fff;
+        padding: 10px;
+        .article-image{
+            @include fullWidthImgBg('../img/limono-post-image.png');
+            @include rectangle(100%, 500px);
+        }
+    }   
+
+    .article{
+
+        &-comment-textarea{
+            width: 100%;
+            min-height: 150px;
+            resize: none;
+            margin: 15px;
+        }
+
+
+
+
+
+
+    }
+
+
+ 
+
+}

@@ -1,0 +1,63 @@
+@import "variables";
+
+@mixin onSmall{
+  @media (max-width: #{$BPsmall}){
+    @content;
+  }
+}
+
+@mixin onSmallHorizontal{
+  @media (max-width: #{$BPsmall}) and (orientation: landscape){
+    @content;
+  }
+}
+
+@mixin onMedium{
+  @media (max-width: #{$BPmedium}){
+    @content;
+  }
+}
+
+@mixin onLarge{
+  @media (max-width: #{$bpLarge}){
+    @content;
+  }
+}
+@mixin fromSmall{
+  @media (min-width: #{$BPsmall}){
+    @content;
+  }
+}
+
+@mixin fromMedium{
+  @media (min-width: #{$BPmedium}){
+    @content;
+  }
+}
+
+@mixin fromLarge{
+  @media (min-width: #{$bpLarge}){
+    @content;
+  }
+}
+
+@mixin onlyExtraSmall{
+  @media (max-width: #{$BPsmall}){
+    @content;
+  }
+}
+@mixin onlySmall{
+  @media (min-width: #{$BPsmall})  and (max-width: #{$BPmedium}){
+    @content;
+  }
+}
+@mixin onlyMedium{
+  @media (min-width: #{$BPmedium})  and (min-width: #{$bpLarge}){
+    @content;
+  }
+}
+@mixin onlyLarge{
+  @media (min-width: #{$bpLarge}){
+    @content;
+  }
+}

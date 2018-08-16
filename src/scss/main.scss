@@ -1,11 +1,7 @@
 @import "components/navbar/navbar";
 @import "components/navbar/navbar-bsoverwrite";
+@import "components/post/post";
+@import "components/post/post-bsoverwrite";
 
-$bg-color: #202020;
-$color: #f1f1f1;
+// Mixins / Functions
 
-
-body{
-    background-color: $bg-color;
-    color: $color;
-}

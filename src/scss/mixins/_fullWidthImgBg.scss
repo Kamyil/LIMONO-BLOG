@@ -1,0 +1,9 @@
+@mixin fullWidthImgBg($path){
+    background-image: url($path);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
