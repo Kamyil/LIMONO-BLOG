@@ -20,15 +20,19 @@ article{
             resize: none;
             margin: 15px;
         }
-
-
-
-
-
-
+    } 
+}
+.post{
+    
+    &-category-header{
+    margin-left: 59px;       
     }
 
-
- 
-
+    
+}
+.popular-posts{
+    margin-top: 10px;
+    &-header{
+        margin-left: 18px;
+    }
 }

@@ -1,0 +1,13 @@
+.sidebar{
+    .new-things{
+        list-style: none !important;
+        li{
+            position: relative;
+            right: 38px;
+           a{
+            color: $limo-gray;
+            text-decoration: none;
+           }
+        }
+    }
+}

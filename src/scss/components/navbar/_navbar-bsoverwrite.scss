@@ -1,3 +1,5 @@
+@import 'mixins/mediaQueries';
+
 .navbar{
     
     min-height: 100px !important;
@@ -6,9 +8,11 @@
     .navbar-collapse{
         border-top: none !important;
     }
-    // .links{
-    //     margin-top: 30px;
-    // }
+    .links{
+        @include onSmall{
+        margin-top: 30px;
+        }
+    }
     .navbar-toggle{
         border: none;
         position: relative;

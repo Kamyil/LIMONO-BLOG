@@ -1,4 +1,4 @@
-@import "variables";
+@import "../variables";
 
 @mixin onSmall{
   @media (max-width: #{$BPsmall}){
